@@ -1,0 +1,192 @@
+/* ----- Desktop ≥1200 ----- */
+
+
+/* @media (min-width: 1200px) {} */
+
+
+/* ----- Desktop ≥1024px and ≤1190 ----- */
+
+
+/* @media (min-width: 1024px) and (max-width: 1199px) {} */
+
+
+/* ----- iPad ≥768px and ≤1023 ----- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* body {
+        padding: 25px;
+    } */
+    .main {
+        padding: 25px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* height: auto; */
+    }
+}
+
+
+/* ----- iPhone X landscape ≥375px and ≤812 ----- */
+
+@media (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    h2 {
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-size: 28px;
+    }
+    /* body {
+        padding: 15px;
+    } */
+    .main {
+        padding: 15px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        height: auto;
+    }
+    .formContainer {
+        /* min-width: 100%; */
+        padding: 15px;
+    }
+    form {
+        padding: 0;
+    }
+    input {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contentContainer {
+        height: auto;
+    }
+    .content {
+        border-radius: 0 20px 20px 0;
+        padding: 15px;
+    }
+}
+
+
+/* ----- Medium devices ≤767px ----- */
+
+@media (max-width: 767px) {
+    h1 {
+        margin-top: 0;
+        margin-bottom: 25px;
+        font-size: 36px;
+    }
+    h2 {
+        margin-bottom: 20px;
+        margin-top: 0;
+        font-size: 28px;
+    }
+    /* body {
+        padding: 25px;
+    } */
+    .main {
+        padding: 25px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .error {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .formContainer {
+        min-width: 100%;
+        padding: 25px;
+    }
+    form {
+        padding: 0;
+    }
+    input {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contentContainer {
+        min-width: 100%;
+    }
+    .content {
+        border-radius: 0 0 20px 20px;
+        padding: 20px;
+    }
+    .contentAlt {
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+    }
+}
+
+
+/* ----- Small devices ≤640px ----- */
+
+@media (max-width: 640px) {
+    h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    h2 {
+        margin-bottom: 15px;
+        margin-top: 0;
+        font-size: 28px;
+    }
+    /* body {
+        padding: 15px;
+    } */
+    .main {
+        padding: 15px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .error {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .formContainer {
+        min-width: 100%;
+        padding: 15px;
+    }
+    form {
+        padding: 0;
+    }
+    input {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .contentContainer {
+        min-width: 100%;
+    }
+    .content {
+        border-radius: 0 0 20px 20px;
+        padding: 20px;
+    }
+    .contentAlt {
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+    }
+}

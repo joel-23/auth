@@ -1,0 +1,16 @@
+/* ----- Small devices ≤640px ----- */
+
+@media (max-width: 640px) {
+    body {
+        padding: 15px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .form-container {
+        width: 100%;
+    }
+    .content-container {
+        width: 100%;
+    }
+}

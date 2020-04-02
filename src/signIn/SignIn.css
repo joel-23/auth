@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+span {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+a:hover {
+    color: #0080ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.error {
+    color: tomato;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 20px;
+    padding: 0;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.form-container {
+    /* border-radius: 20px 0 0 20px; */
+    max-width: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.form-container-alt {
+    border-radius: 0 20px 20px 0;
+    max-width: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.social-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.social {
+    margin: 0;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #333;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+button.social {
+    outline: none;
+}
+
+.social img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.social:hover {
+    outline: none;
+    background: none;
+    border: 1px solid #0080ff;
+    transform: scale(1.3, 1.3);
+    filter: grayscale(0);
+}
+
+form {
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+input {
+    background-color: #eee;
+    font-size: 18px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 0;
+    color: #000;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-right: 5px solid #0080ff;
+    outline: none;
+    transition: 0.4s;
+}
+
+.content-container {
+    max-width: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    /* border-radius: 0 20px 20px 0; */
+    padding: 30px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #0080ff, #0000d4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.content-alt {
+    border-radius: 20px 0 0 20px;
+    padding: 30px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #0000d4, #0080ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+button {
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #0080ff;
+    background-color: #0080ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding: 12px 45px; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+button[type="submit"] {
+    outline: none;
+    padding: 12px 45px;
+}
+
+.button-primary {
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #0080ff;
+    background-color: #0080ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.button-primary:hover {
+    color: #0080ff;
+    background-color: none;
+}
+
+button[type="submit"]:hover {
+    color: #0080ff;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button:hover a {
+    color: #0080ff;
+    transition: 0.3s;
+}
+
+button a {
+    /* outline: none; */
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    padding: 12px 45px;
+}
+
+.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+.ghost a {
+    color: #fff;
+}

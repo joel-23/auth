@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userInfo h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main {
+    min-height: 100vh;
+    position: relative;
+}
+
+.mainBg {
+    height: 65vh;
+    background: linear-gradient(to right, #00c6ff, #3d43a8);
+    min-width: 100%;
+}
+
+.mainContent {
+    z-index: 1;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 850px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+}
+
+#displayName {
+    height: 50px;
+}
+
+.imageContainer {
+    width: 100%;
+    max-width: 50%;
+    background-color: lightcyan;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* .crop {
+    width: 405px;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cropContainer {
+    width: 100%;
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 45%;
+}
+
+.formContainer textarea {
+    /* color: #0080ff; */
+    padding: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 32px;
+    resize: none;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(to right, #00c6ff, #3d43a8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formContainer textarea::placeholder {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.userInfo {
+    width: 100%;
+}
+
+.main input {
+    background-color: #eee;
+    font-size: 18px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 0;
+    color: #000;
+    border-radius: 5px;
+}
+
+.main input:focus {
+    border-right: 5px solid #0080ff;
+    outline: none;
+    transition: 0.4s;
+}
+
+.buttonPrimary {
+    margin: 8px;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #0080ff;
+    background-color: #0080ff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.buttonPrimary:hover {
+    color: #0080ff;
+    background: none;
+}
